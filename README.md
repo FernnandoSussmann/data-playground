@@ -1,2 +1,5 @@
-# data-playground
-Just a bunch of snippets related to playing around with data. If a real project come out to this I may move it to a separate repo
+# Data Playground
+Só uma par de snippets de testes com dados. Se isso virar um projeto devo mudar para um repositório proprio.
+
+## Testes atuais
+- [IBGE Data](https://github.com/FernnandoSussmann/data-playground/tree/ibge-data)
