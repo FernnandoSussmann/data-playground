@@ -2,7 +2,7 @@
 Just playing around with IBGE data. Probably extracting and cleaning at first to afterwards see what can be done with it.
 
 # How to run
-You must have [poetry]() installed. Inside `data-playground/ibge-data` folder run the following to update poetry dependencies:
+You must have [poetry](https://python-poetry.org/) installed. Inside `data-playground/ibge-data` folder run the following to update poetry dependencies:
 ```sh
 poetry update
 ```
