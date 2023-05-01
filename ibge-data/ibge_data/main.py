@@ -1,4 +1,5 @@
 import logging
+import pandas as pd
 from utils.data_downloader import request_builder
 from utils.estrutura_tabela import estrutura
 
@@ -9,8 +10,9 @@ def download(endpoint, api, parameters):
 
 
 def persistir(subdataset, indicador, metrica):
-    # TODO Escrever no disco
-    logging.info(f"{indicador}/{metrica}: {subdataset}\n")
+    df = pd.DataFrame(subdataset.items(), columns=["periodo", metrica])
+    logging.debug(df)
+    df.to_csv(f"dados/{indicador}.csv", index=False)
 
 
 if __name__ == "__main__":

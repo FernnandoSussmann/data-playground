@@ -13,7 +13,7 @@ estrutura = {
     },
     "60284": {
         "indicador": "fecundidade",
-        "metrica": "número_medio_filhos_mulheres_em_idade_fertil",
+        "metrica": "numero_medio_filhos_mulheres_em_idade_fertil",
     },
     "60282": {"indicador": "mortalidade_infantil", "metrica": "mortalidade_infantil"},
     "1737": {0: {"indicador": "ipca", "metrica": "ipca"}},
