@@ -10,7 +10,7 @@ def download(endpoint, api, parameters):
 
 def persistir(subdataset, indicador, metrica):
     # TODO Escrever no disco
-    logging.info(f"{indicador}/{metrica}: {subdataset}")
+    logging.info(f"{indicador}/{metrica}: {subdataset}\n")
 
 
 if __name__ == "__main__":
@@ -24,13 +24,13 @@ if __name__ == "__main__":
         if "indicador" not in estrutura.keys():
             for subtabela, subestrutura in estrutura.items():
                 persistir(
-                    subdataset=dataset[tabela][subtabela],
+                    subdataset=dataset[tabela][subtabela]["resultados"],
                     indicador=subestrutura["indicador"],
                     metrica=subestrutura["metrica"],
                 )
         else:
             persistir(
-                subdataset=dataset[tabela],
+                subdataset=dataset[tabela]["resultados"],
                 indicador=estrutura["indicador"],
                 metrica=estrutura["metrica"],
             )

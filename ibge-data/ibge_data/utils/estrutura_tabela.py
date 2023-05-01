@@ -1,6 +1,8 @@
 estrutura = {
-    "6579": {"indicador": "estimativa_da_populacao", "metrica": "quantidade_pessoas"},
-    "4094": {"indicador": "desemprego", "metrica": "%desempregados"},
+    "6579": {
+        0: {"indicador": "estimativa_da_populacao", "metrica": "quantidade_pessoas"}
+    },
+    "4094": {0: {"indicador": "desemprego", "metrica": "%desempregados"}},
     "63306": {
         "indicador": "escolarizacao",
         "metrica": "%pessoas_6_a_14_anos_frequenta_escola",
@@ -14,18 +16,24 @@ estrutura = {
         "metrica": "número_medio_filhos_mulheres_em_idade_fertil",
     },
     "60282": {"indicador": "mortalidade_infantil", "metrica": "mortalidade_infantil"},
-    "1737": {"indicador": "ipca", "metrica": "ipca"},
-    "1736": {"indicador": "inpc", "metrica": "inpc"},
-    "3065": {"indicador": "ipca-15", "metrica": "ipca-15"},
-    "6903": {"indicador": "ipp", "metrica": "ipp"},
-    "2296": {"indicador": "custo_m_quadrado", "metrica": "custo_m_quadrado"},
-    "5932": {"indicador": "pib_per_capta", "metrica": "pib_per_capta"},
+    "1737": {0: {"indicador": "ipca", "metrica": "ipca"}},
+    "1736": {0: {"indicador": "inpc", "metrica": "inpc"}},
+    "3065": {0: {"indicador": "ipca-15", "metrica": "ipca-15"}},
+    "6903": {0: {"indicador": "ipp", "metrica": "ipp"}},
+    "2296": {0: {"indicador": "custo_m_quadrado", "metrica": "custo_m_quadrado"}},
+    "5932": {0: {"indicador": "pib_per_capta", "metrica": "pib_per_capta"}},
     "8888": {
-        "indicador": "industria",
-        "metrica": "alteracoes_quantidades_bens_e_servicos_produzidos",
+        0: {
+            "indicador": "industria",
+            "metrica": "alteracoes_quantidades_bens_e_servicos_produzidos",
+        }
     },
-    "8880": {"indicador": "comercio", "metrica": "variacao_indice_volume_de_vendas"},
-    "5906": {"indicador": "servicos", "metrica": "variacao_indice_volume_de_servicos"},
+    "8880": {
+        0: {"indicador": "comercio", "metrica": "variacao_indice_volume_de_vendas"}
+    },
+    "5906": {
+        0: {"indicador": "servicos", "metrica": "variacao_indice_volume_de_servicos"}
+    },
     "74": {
         0: {"indicador": "producao_de_ovos", "metrica": "mil_duzias"},
         1: {"indicador": "producao_de_leite", "metrica": "litros"},
